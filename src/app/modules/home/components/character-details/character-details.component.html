@@ -1,0 +1,7 @@
+<div class="container character-details">
+  <div *ngIf="characterDetails">
+    <img class="img-character" loading="lazy" [src]="characterDetails?.thumbnail?.path + '.' + characterDetails?.thumbnail?.extension" alt="">
+    <h2 class="title-character">{{ characterDetails?.name }}</h2>
+    {{ characterDetails | json }}
+  </div>
+</div>

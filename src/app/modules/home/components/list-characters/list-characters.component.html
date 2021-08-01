@@ -1,0 +1,14 @@
+<div class="container list-characters">
+  <div class="row">
+    <div class="col-md-4 col-sm-6 col-12" *ngFor="let hero of characters">
+      <div class="card-character">
+        <div [ngStyle]="{'background-image': 'url(' + hero?.thumbnail?.path + '.' + hero?.thumbnail?.extension + ')'}" class="card-character-image" [title]="hero?.name"></div>
+        <h4 class="title-character">{{ hero?.name }}</h4>
+        <div>
+          <a class="btn-detail" (click)="navigateByDetail(hero?.id)">Personagem</a>
+          <a class="btn-comics">Quadrinhos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,98 @@
+.list-characters {
+  margin-top: 30px;
+}
+
+.title-character {
+  margin: 15px 0px;
+  font-size: 17px;
+  padding: 5px;
+  border: 2px solid;
+  width: max-content;
+}
+
+.card-character {
+  max-width: 400px;
+  margin-bottom: 15px;
+  padding: 15px;
+  opacity: 0.9;
+  border-radius: 8px;
+  border: solid #ccc 2px;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.card-character:hover {
+  opacity: 1;
+  color: #fff;
+  background: #bd2c2c;
+  box-shadow: 2px 2px 10px -5px #000;
+
+  .btn-detail {
+    background: #ffc107;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px 1px #000;
+  }
+
+  .btn-detail:hover {
+    cursor: pointer;
+    background: #ebb208;
+  }
+
+  .btn-comics {
+    background: #0bb1f3;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px 1px #000;
+  }
+
+  .btn-comics:hover {
+    cursor: pointer;
+    background: #05a3e2;
+  }
+}
+
+.card-character-image {
+  height: 250px;
+  width: 100%;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.btn-detail {
+  background: #bd2c2c;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px 1px #000;
+}
+
+.btn-comics {
+  background: #bd2c2c;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px 1px #000;
+}

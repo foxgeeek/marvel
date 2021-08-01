@@ -1,0 +1,1 @@
+export const urlApi = 'http://gateway.marvel.com';
